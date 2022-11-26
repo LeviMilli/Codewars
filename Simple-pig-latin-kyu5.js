@@ -43,4 +43,4 @@ function pigIt(str){
 
 
   // The first thing that needs to be done, as with most string manipulation, is to make it an array. After that array methods can we used. The frist thing to do here is to split the string.
-  // we need to grab the value of the first letter and splice the rest. joining it together with the spliced word and adding ay to create a pig latin phrase..
+  // we need to grab the value of the first letter and splice the rest. joining it together with the spliced word and adding ay to create a pig latin phrase.
