@@ -7,21 +7,21 @@
 
 
 function isValidWalk(walk) {
-    var dx = 0
-    var dy = 0
-    var dt = walk.length
+    var directionX = 0
+    var directionY = 0
+    var trip = walk.length
   
     for (var i = 0; i < walk.length; i++) {
       switch (walk[i]) {
-        case 'n': dy--; break
-        case 's': dy++; break
-        case 'w': dx--; break
-        case 'e': dx++; break
+        case 'n': directionY--; break
+        case 's': directionY++; break
+        case 'w': directionX--; break
+        case 'e': directionX++; break
       }
     }
   
-    return dt === 10 && dx === 0 && dy === 0
-    //insert brilliant code here
+    return trip === 10 && directionX === 0 && directionY === 0
+    
   }
 
   // So for this we only have a few things we need to check. at the end we need to check and make sure our x axis and y axis are both at 0. everything else doesnt matter.
