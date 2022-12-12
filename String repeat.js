@@ -4,7 +4,6 @@
 // 6, "I"     -> "IIIIII"
 // 5, "Hello" -> "HelloHelloHelloHelloHello"
 
-
 function repeatStr (n, s) {
     let string = "";
     while (n > 0){
