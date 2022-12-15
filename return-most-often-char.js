@@ -28,7 +28,6 @@ var hashmapmaker = function(){
     if (hashmap.get(char) > maxCount){
       maxCount = hashmap.get(char)
     }
-    
   }
     return maxCount
 }
