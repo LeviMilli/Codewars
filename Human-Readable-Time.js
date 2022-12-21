@@ -12,7 +12,6 @@ DESCRIPTION:
 
 
 
-
 //mine
 function humanReadable (seconds) {
     let hours = 0
