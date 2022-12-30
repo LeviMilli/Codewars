@@ -62,7 +62,6 @@ function productFib(prod){
 
 
 
-
  //so here we need to first establish a fib number sequence which is fib(n-1) + fib(n-2). its the addition of the two numbers before it. so the way we can accomplish that is
  // to establish an a b and use a while loop for the product. if a * b is less than prod we can keep counting up the fib resettting our a b to b a+b.
  // the answer wants it in a number number boolean format so we return that.
