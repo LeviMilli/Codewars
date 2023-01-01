@@ -60,6 +60,7 @@ function productFib(prod){
    // ...
  }
 
+ 
 
 
  //so here we need to first establish a fib number sequence which is fib(n-1) + fib(n-2). its the addition of the two numbers before it. so the way we can accomplish that is
