@@ -19,6 +19,5 @@ var uniqueInOrder=function(iterable){
         answer.push(strArr[i])
       }
     } return answer
-    //your code here - remember iterable can be a string or an array
-    console.log(iterable)
+
   }
