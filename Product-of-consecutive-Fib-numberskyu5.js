@@ -44,11 +44,6 @@
 // productFib(800) # should return {34, 55, false}, 
 
 
-
-
-
-
-
 function productFib(prod){
   
     let [a, b] = [0, 1]
