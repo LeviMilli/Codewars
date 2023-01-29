@@ -48,3 +48,33 @@ Queue.prototype.size = function() {
   return this.tail - this.head
   // return number of items in queue so far
 };
+
+
+const que = new Queue()
+
+que.enqueue("apple")
+que.enqueue("banana")
+que.enqueue("blueberry")
+
+que.dequeue()
+
+que.enqueue("blueberry")
+
+que.dequeue()
+
+
+
+console.log(que)
+
+//REAL ONE 
+
+// class Queue {
+//   constructor(){
+//      this.list = [] }
+//   enqueue(item){ 
+//     this.list.unshift(item) }
+//   dequeue(){
+//      return this.list.pop() }
+//   size(){
+//      return this.list.length }
+// }
