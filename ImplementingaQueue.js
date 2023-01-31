@@ -63,7 +63,6 @@ que.enqueue("blueberry")
 que.dequeue()
 
 
-
 console.log(que)
 
 //REAL ONE 
