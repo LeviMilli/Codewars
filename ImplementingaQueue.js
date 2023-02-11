@@ -50,29 +50,54 @@ Queue.prototype.size = function() {
 };
 
 
-const que = new Queue()
+// const que = new Queue()
 
-que.enqueue("apple")
-que.enqueue("banana")
-que.enqueue("blueberry")
+// que.enqueue("apple")
+// que.enqueue("banana")
+// que.enqueue("blueberry")
 
-que.dequeue()
+// que.dequeue()
 
-que.enqueue("blueberry")
+// que.enqueue("blueberry")
 
-que.dequeue()
+// que.dequeue()
 
-console.log(que)
+// console.log(que)
 
 //REAL ONE 
 
 // class Queue {
+
+
 //   constructor(){
+
 //      this.list = [] }
+
 //   enqueue(item){ 
+
 //     this.list.unshift(item) }
+
 //   dequeue(){
+
 //      return this.list.pop() }
+
 //   size(){
+
 //      return this.list.length }
 // }
+
+
+
+let que = new Queue
+
+que.enqueue("strawberry")
+que.enqueue("banana")
+que.enqueue("orange")
+
+
+que.dequeue()
+
+
+
+
+console.log(que)
