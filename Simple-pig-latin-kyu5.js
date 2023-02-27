@@ -19,8 +19,6 @@ function pigIt(str){
             }
     }
     
-    
-   
       
      return newArr.join(" ")
     
