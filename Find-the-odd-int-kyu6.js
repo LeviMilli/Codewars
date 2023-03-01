@@ -24,3 +24,21 @@ function findOdd(arr) {
     }
     return -1;
   }
+
+  function findOdd(A) {
+  
+    let hash = {}
+    
+    for (let i = 0; i < A.length; i++){
+      hash[A[i]] = (A[i] in hash ) ? hash[A[i]] + 1 : 1
+    }
+    
+    for (let key in hash){
+      if(hash[key] % 2 !== 0){
+        return parseInt(key)
+      }
+    }
+    
+  }
+
+  /// also solid
