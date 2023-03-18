@@ -25,6 +25,7 @@
 // Input: s = "(]"
 // Output: false
 
+
 /**
  * @param {string} s
  * @return {boolean}
