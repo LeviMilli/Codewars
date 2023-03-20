@@ -17,6 +17,9 @@
 
 // The middle character(s) of the word represented as a string.
 
+
+//mine
+
 function getMiddle(s){
     let length = s.length
     if (length % 2 == 0){
@@ -26,6 +29,9 @@ function getMiddle(s){
     }
     //Code goes here!
   }
+
+
+  //clever 
 
 
 
