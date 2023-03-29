@@ -38,15 +38,11 @@
  * @return {number}
  */
 var firstUniqChar = function(s) {
-    console.log(s.lastIndexOf())
-    
     for (let i = 0; i < s.length; i++){
-        if (s.indexOf(s[i]) == s.lastIndexOf(s[i])){
+        if (s.indexOf(s[i] == s.lastIndexOf(s[i]) )){
             return i
         }
-    } return -1
-    
-        
+    }   return -1
     };
 
 
