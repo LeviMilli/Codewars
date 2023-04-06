@@ -36,11 +36,16 @@ const PcDisplay = (props) => {
 // Implement HOC -> returns a functions that wraps the passed in `PcDisplay` component
 let withPriceModel = ((Component, increase) => {
   return function(props) {
-    const newPrice =  50 + increase || 50;
+    const newPrice = 50 + increase || 50
     const newProps = {...props, price: newPrice}
     return <Component {...newProps} />
   }
 });
+
+// In this case we could also deconstruct the price from our props and use that instead 
+// something like: const { price, ...rest } = props; 
+// then just make it price afterwards:  return <WrappedComponent price={newPrice} {...rest} />;
+
 
 // Build basic and pro model components using `withPriceModel`
 let BasicModel = withPriceModel(PcDisplay);
@@ -60,3 +65,5 @@ roadside pitstop that is upgrading our compoent with an extra shiny new prop. on
 basic model that, if we dont pass a price increase, will have a base price of 50. if pass a price like we do in the proModel,
 then that will increase the base. so in this proModel case, the price would be 110.
 */
+
+
