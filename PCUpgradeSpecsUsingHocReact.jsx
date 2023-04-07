@@ -33,6 +33,7 @@ const PcDisplay = (props) => {
   </div>);
 };
 
+
 // Implement HOC -> returns a functions that wraps the passed in `PcDisplay` component
 let withPriceModel = ((Component, increase) => {
   return function(props) {
