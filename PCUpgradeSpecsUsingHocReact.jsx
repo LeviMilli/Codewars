@@ -53,7 +53,6 @@ let BasicModel = withPriceModel(PcDisplay);
 
 let ProModel = withPriceModel(PcDisplay, 60);
 
-
 /*
 So in this problem we do HOC, which is bascially higher order functions but with components obviously. It looks confusing at first
 but its not as bad as it seems. The first component is already set as PcDisplay and we will be using that. All we want to do
