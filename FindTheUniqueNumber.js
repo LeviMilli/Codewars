@@ -32,7 +32,6 @@ function findUniq(arr) {
 
     
 
-    
 
     function findUniq(arr) {
         arr.sort((a,b)=>a-b);
