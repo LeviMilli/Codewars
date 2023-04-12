@@ -43,6 +43,7 @@ let withPriceModel = ((Component, increase) => {
   }
 });
 
+
 // In this case we could also deconstruct the price from our props and use that instead 
 // something like: const { price, ...rest } = props; 
 // then just make it price afterwards:  return <WrappedComponent price={newPrice} {...rest} />;
