@@ -56,6 +56,9 @@ var generate = function(numRows) {
     };
 
 
+    
+
+
 
     /*
     so this problem is pretty fun. first we need to establish a blank triangle that we are going to be pushin our rows to.
