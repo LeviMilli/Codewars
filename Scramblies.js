@@ -25,6 +25,7 @@ function scramble(str1, str2) {
     }
       
     
+    
     for (let char in hash2){
       if (!hash1[char] || hash1[char] < hash2[char]){
         return false
