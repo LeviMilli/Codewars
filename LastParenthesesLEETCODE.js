@@ -49,8 +49,6 @@ var isValid = function(s) {
         } return arr.length === 0
 };
 
-
-
 /*
 So this problems has two parts. first we need to create a hashmap that stores the parthenthese and their counterparts.
 We will be using this a couple times to help us solve this problem. We need an array to store our iterations. 
