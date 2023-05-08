@@ -47,9 +47,8 @@ var longestCommonPrefix = function(strs) {
     return prefix
   };
   
-  
 
-  
+
   /*
   ok so an overview of what we are doing here is checking the first two to make sure there is a prefix between them.
   we can then move on if the prefix is less than what the first two return. but first we set the prefix as the first string.
