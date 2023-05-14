@@ -25,6 +25,16 @@ def remove_smallest(numbers):
     return new
 
 
+
+#this is also a very clever itteration of this problem
+def remove_smallest(numbers):
+    a = numbers[:]
+    if a:
+        a.remove(min(a))
+    return a
+
+
+
 # so in this we need to reuturn an empty array if given an empty array. we first need to find the lowest number our array.
 # we can do this by using min on our numbers. then we also need to return a new array and not modify the original one.
 # copy is great for this. then we remove the lower from our new array and return our modified new array.
