@@ -18,4 +18,5 @@ def descending_order(num):
     return sorted_num
 
 
-# so for this we need 
+# so for this we need to turn our num into a string. then we can use sorted() to make it decending and turn it into a list.
+# then we join and turn it back into an integer and return
