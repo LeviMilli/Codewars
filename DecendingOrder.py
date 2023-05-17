@@ -7,6 +7,7 @@
 
 # Input: 123456789 Output: 987654321
 
+
 def descending_order(num):
     stringing = str(num)
     
