@@ -12,13 +12,10 @@ def create_phone_number(numbers):
   if len(numbers) != 10:
     raise ValueError("The array must contain 10 integers")
 
-  # Convert the integers to strings
   numbers = [str(n) for n in numbers]
 
-  # Format the numbers into a phone number string
   phone_number = "(" + numbers[0] + numbers[1] + numbers[2] + ") " + numbers[3] + numbers[4] + numbers[5] + "-" + numbers[6] + numbers[7] + numbers[8] + numbers[9]
 
-  # Return the phone number string
   return phone_number
 
 
