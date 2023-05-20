@@ -24,6 +24,16 @@ def get_middle(s):
     return s[index] if odd else s[index - 1:index + 1]
 
 
+
+
+def get_middle(word):
+  length = len(word)
+  if length % 2 == 1:
+    return word[length // 2]
+  else:
+    return word[length // 2 - 1:length // 2 + 1]
+
+
 # so we use divmod here to give us the quotient and the remainder. on odd lengths this will give us the correct index and we 
 # can just use it and go. on even lengths. we will need to use slice notation to get the index - 1 and the index position right after it
 # slice notation just shows when to stop so using index + 1 instead of just index for the end part of our notation works.
