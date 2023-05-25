@@ -31,7 +31,29 @@ def duplicate_count(text):
         if value > 1:
             answer += 1
                 
-    return answer    
+    return answer   
+
+# or we can use the Counter from collections:
+
+from collections import Counter
+
+def duplicate_count(text):
+
+    lowerword = text.lower()
+    answer = 0
+    counter = Counter(lowerword)
+
+    for letter, val in counter.items():
+        if val > 1:
+            answer += 1
+
+    return answer
+
+
+
+
+
+
 
 
 # so for this problem, we switch everything to lowercase and itterate through it to create a dictionary of items to check. 
