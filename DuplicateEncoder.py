@@ -13,45 +13,13 @@
 
 
 
-
 def duplicate_encode(word):
-    
-    print(word)
- 
-    neword = word.lower()
-    encode = ""
-    
-    for letter in neword:
-        if word.count(letter) > 1:
-            encode += ")"
-        else:
-            encode += "("
-            
-    return encode
-    
+    return "".join(["(" if word.lower().count(x) == 1 else ")" for x in word.lower()])
+
+
     
     
 
-def duplicate_encode(word):
-    word = word.lower()  # Convert the word to lowercase for case-insensitive comparison
-    
-    encode = {}
-    
-    for letter in word:
-        if letter in encode:
-            encode[letter] += 1
-        else:
-            encode[letter] = 1
-    
-    encoded_string = ""
-    
-    for letter in word:
-        if encode[letter] > 1:
-            encoded_string += ")"
-        else:
-            encoded_string += "("
-    
-    return encoded_string
 
 
 
