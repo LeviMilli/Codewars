@@ -24,4 +24,8 @@ def alphabet_position(text):
     return ' '.join(result)
 
 
-#
+
+
+# so first here we need to have a alphabet dictt to get our numbers to replace them in the correct spots. also text needs to be lower 
+# case because thats what we have. we create our list to append things to then our for loop. we check if each character is a letter,
+# if it is, we append that letters corresponding position to our result answer.
