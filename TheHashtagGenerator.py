@@ -14,9 +14,8 @@
 
 
 def generate_hashtag(s):
-    whitespace = s.strip()
-    capital = whitespace.split(" ")
-    answer = " ".join([word.capitalize() for word in capital]).replace(" ", "")
+
+    answer = " ".join([word.capitalize() for word in s.split("")]).replace(" ", "")
     
     if len(answer) > 140 or len(answer) == 0:
         return False
@@ -35,6 +34,8 @@ def generate_hashtag(s):
     
     return False if (len(s) == 0 or len(output) > 140) else output
 
-#will elaborate on these later
+# so we need to capitalize the first letter of all the words and remove all the whitespace afterwards. we can do this with either a 
+# for loop and capitalize or title. then we return the "#" + answer. if the characters are more than 140 or 0, we need to check for that too
+
 
 
