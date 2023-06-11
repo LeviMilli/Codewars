@@ -24,3 +24,5 @@ def order_weight(strng):
     splitty = strng.split(" ")
     sorted_numbers = sorted(splitty, key=lambda x: (sum(int(num) for num in str(x)), x))
     return " ".join(sorted_numbers)
+
+
