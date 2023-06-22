@@ -21,6 +21,7 @@ def narcissistic( value ):
         return True
     print(check)
     return False # Code away
+    
 
 # so for this one we need to itterate over our value and multiply each number by the length of our numbers. this should eitehr 
 # be the same as our value so we return true, or false. 
