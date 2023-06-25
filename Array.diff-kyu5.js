@@ -11,6 +11,7 @@ DESCRIPTION:
 function arrayDiff(a, b) {
     return a.filter(val => !b.includes(val));
   }
+  
 
   // We use filter in this case. filter, unlike foreach, will return an array based on what passed the parameters, similar to map.
     // we take the array of a and use .filter() and create an arrow function with val being the parameter if each value of a.
