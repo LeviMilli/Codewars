@@ -23,7 +23,6 @@ def is_prime(num):
     return True
     
     
-    
 # so for this problem, we need to run through a range of numbers and use a modulus to check if i % num is 0. if it is, we know
 # that our number can't be prime. we do this becuase for a number to be prime, there has to be at least one number that
 # its divisible by under the square root of the number.
