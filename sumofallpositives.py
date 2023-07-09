@@ -15,5 +15,6 @@ def positive_sum(arr):
             answer += num
     return 
 
+
 # sum psotive numbers together using two if statements. one to check if its 
 # empty, the other to make sure num is greater tahn 0
