@@ -5,6 +5,7 @@
 # Note: if there is nothing to sum, the sum is default to 0.
 
 
+
 def positive_sum(arr):
     if not arr:
         return 0
