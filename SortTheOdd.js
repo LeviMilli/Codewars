@@ -13,5 +13,6 @@ function sortArray(array) {
     return answer
   }
 
+  
   // for this one we just needed to get our odd number array out of the array we were given. We did this using filter.
   // we can then use map to go over our array and replace each odd number by using shift() out of our odd array.
