@@ -25,6 +25,7 @@ def remove_smallest(numbers):
     return new
 
 
+
 #this is also a very clever itteration of this problem
 def remove_smallest(numbers):
     a = numbers[:]
