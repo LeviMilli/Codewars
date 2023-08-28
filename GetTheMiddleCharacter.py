@@ -25,7 +25,6 @@ def get_middle(s):
 
 
 
-
 def get_middle(word):
   length = len(word)
   if length % 2 == 1:

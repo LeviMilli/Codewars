@@ -38,4 +38,3 @@ def generate_hashtag(s):
 # for loop and capitalize or title. then we return the "#" + answer. if the characters are more than 140 or 0, we need to check for that too
 
 
-
