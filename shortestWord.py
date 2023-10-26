@@ -13,4 +13,4 @@ def find_short(s):
     
 # for this one we need to split the word and set our answer to he first word. then
 # we can itterate over the list and replace the answe with one that is shorter. then we
-# return the length of the answe.
+# return the length of the answer.
