@@ -9,6 +9,9 @@
 # Happy Coding!
 
 
+
+
+
 def square_digits(num):
     answer = ""
     for digit in str(num):
