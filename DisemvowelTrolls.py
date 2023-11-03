@@ -14,5 +14,8 @@ def disemvowel(string_):
     return "".join(char for char in string_ if char not in vowel)
     
     
-# so in this problem we set our vowels. then we can create a for loop in our join. and only join the parts of the string_ 
-# # that are not in vowels.     
+# we need our list of vowels to check against our string thats being passed through so we create our vowels variable. 
+# we then can use a simple return and itterate through all the characters in our string joining them together if they are not in our vowels.
+# we could also just use "aeiou" inside of our check and use a lowercase version of each letter to check similar to this:
+def disemvowel(string_):
+    return "".join(char for char in string_ if char.lower() not in "aeiou")
