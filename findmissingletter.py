@@ -18,8 +18,7 @@ def find_missing_letter(chars):
     alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
     first_index = alphabet.index(chars[0])
     index = 0
-    print(chars)
-    
+        
     while index < len(chars):
         if alphabet[first_index] != chars[index]:
             return alphabet[first_index]
