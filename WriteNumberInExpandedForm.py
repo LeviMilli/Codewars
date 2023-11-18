@@ -9,10 +9,6 @@
 # If you liked this kata, check out part 2!!
 
 
-
-
-
-
 def expanded_form(num):
     num_str = str(num)
     length = len(num_str)
