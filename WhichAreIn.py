@@ -31,4 +31,3 @@ def in_array(array1, array2):
 # words in the second array. if it is we then check to see if the answer is in answer and return a sorted answer.
 
 
-
