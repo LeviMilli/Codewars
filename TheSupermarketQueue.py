@@ -44,10 +44,7 @@ def queue_time(customers, n):
         
     return max(tills)
 
-
 # so if our n is 1, we can just return the sum of all of them. otherwise we need to create the registers, we do this but 
 # doing [0] * n. this will give us our registers that we can fill with customers. we need the index of the lowest register time 
 # and add our next time to it. this will always be grabbing the lowest time register. this gives us an accurate time if we take the 
 # make time customers have spent at registers.
-
-
