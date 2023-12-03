@@ -34,8 +34,9 @@ class Solution(object):
 
         for i, char in enumerate(strs[0]):
             for word in strs[1:]:
-                if i >= len(strs[1]) or char != word[i]:
+                if i >= len(word) or char != word[i]:
                     return strs[0][:i]
+        return strs[0]
 
 
 # first we return our blank asnwer "" if there is no strs. for the next part we are going to need an i index counter and a char
