@@ -39,7 +39,14 @@ class Solution(object):
         stripped = s.strip()
         splitter = stripped.split()
         return len(splitter[-1])
-        
+    
 
+# refactor
+class Solution(object):
+    def lengthOfLastWord(self, s):
+        return len(s.strip().split()[-1])
+        
+        
+    
 # for this problem we need to remove the extra whitespace and grab the last word. we can do that be using strip then using splitting
 # our sentence into a list. we can then just grab the last element of the list by using [-1]
