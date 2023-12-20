@@ -44,8 +44,11 @@
 
 class Solution(object):
     def plusOne(self, digits):
+        
         workaround = int("".join((map(str,digits))))
+
         workaround += 1
+
         return [int(digit) for digit in str(workaround)]
     
 
