@@ -28,6 +28,6 @@
 class Solution(object):
     def strStr(self, haystack, needle):
       return haystack.find(needle)
-
+    
 # for this problem we can just simply use find. its a super useful python feature that will either return the index 
 # of the desired substring or return -1.
