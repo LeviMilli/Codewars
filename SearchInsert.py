@@ -39,19 +39,18 @@
 
 class Solution(object):
     def searchInsert(self, nums, target):
-        print(nums)
-        if target in nums:
-            return nums.index(target)
-        answer = len(nums)
-        for i, num in enumerate(nums):
-            if target <= num:
-                answer = i
-                break
-        return answer
-            
+        low = 0
+        high = len(nums) - 1
+        while high >= low:
+            mid = (high + low) // 2
+            if target < nums[mid]:
+                low = mid - 1
+            if target > nums[mid]:
+                high = mid + 1
+            else:
+                return mid
+        return low
         
 
-# for this challenge we need to first check if our target is in our nums, we can return the index of that if its found.
-# if its not found we need to search for where it goes. we can set our answer to the length of our nums to handle the case where 
-# it goes at the end. then we itterate through setting our answer to i if our target is less than our current num,
-# once it is not we will then know that our previous index is our answer, or the original index we set.
+# for this challenge we cannot be itterate through the problem, we are trying to avoid the time complexity of O(n).
+# for this problem we are going to use O(log n) which is what a binary search. this is a fairly simply binary search converging on our answer or 
