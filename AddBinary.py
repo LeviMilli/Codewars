@@ -29,6 +29,7 @@ class Solution(object):
     def addBinary(self, a, b):
         return bin(int(a, 2) + int(b, 2))[2:]
         
+        
 
 # for this challenge we change the binary to integers using int(x, 2). add them together and convert back to binary using bin()
 # this returns a ob"x" so we'll need to slice off the part we need for the answer with [2:]
