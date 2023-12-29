@@ -44,6 +44,8 @@ class Solution(object):
             else:
                 current = current.next
         return head
+
+        
             
 # for this problem we just need to traverse down our linked list and check to see if the values are the same as the next. if they are
 # we set the next to next.next. pretty straightforward problem in the end.
