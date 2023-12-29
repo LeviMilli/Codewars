@@ -38,12 +38,12 @@ class Solution(object):
         
         current = head
         while current and current.next:
-            if current.val is current.next.val:
+            if current.val == current.next.val:
                 current.next = current.next.next
-                head
+                
             else:
                 current = current.next
         return head
             
 # for this problem we just need to traverse down our linked list and check to see if the values are the same as the next. if they are
-# we set the next to next.next. pretty straightforward problem
+# we set the next to next.next. pretty straightforward problem in the end.
