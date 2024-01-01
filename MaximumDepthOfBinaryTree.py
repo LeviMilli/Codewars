@@ -33,6 +33,7 @@
 #         self.right = right
 
 
+
 class Solution(object):
     def maxDepth(self, root):
         # Base case: if the root is None, the depth is 0
