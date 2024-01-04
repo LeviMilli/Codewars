@@ -29,6 +29,7 @@
 # -3 * 104 <= nums[i] <= 3 * 104
 # Each element in the array appears twice except for one element which appears only once.
 
+
 class Solution(object):
     def singleNumber(self, nums):
         result = 0
