@@ -21,6 +21,7 @@ def rot13(message):
             
     return answer
 
+
 # for this one... we just want to push everything over to our answer string. so we do that by replacing itterating over our message,
 # then checking if its alpha, if it is we get the index of our norm and use that to add the index of our rot13 to our answer.
 # if it doesnt pass our isalpha() check, we just push whatever letter or space on through to our answer.
