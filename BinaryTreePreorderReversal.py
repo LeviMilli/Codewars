@@ -51,7 +51,6 @@ class Solution(object):
             root = root.right
         
         return result
-    
 
 # for this one we need to have a stack and result array. then we can continue through the our problem using those.
 # isntead of using recursion here we can just use double while loops. we want to run our run if we have a root or stack.
