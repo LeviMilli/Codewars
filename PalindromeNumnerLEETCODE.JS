@@ -52,16 +52,15 @@
  * @return {boolean}
  */
 var isPalindrome = function(x) {
-    if (x < 0) {
+    if (x < 0){
         return false
     }
-    let check = x.toString().split("").reverse().join("")
-    console.log(check)
-    if (+check === x){
+    if (x.toString().split("").reverse().join("") == x){
         return true
     } else {
         return false
     }
-
-
 };
+
+// for this we use the classic reverse a string to reverse our number and check agaisnt our original number.
+// this would be the same way we would check for a palidrome word as well.
