@@ -56,6 +56,7 @@ var isValid = function(s) {
     }
     return stack.length === 0
     
+    
 };
 
 // becuase of the rules to this problem we can use a stack. each parentheses need to be closed in the correct order. 
