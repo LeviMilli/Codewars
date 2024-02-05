@@ -58,7 +58,6 @@ var isValid = function(s) {
     
 };
 
-
 // becuase of the rules to this problem we can use a stack. each parentheses need to be closed in the correct order. 
 // itterate over the string and check to see if its in our mappping. if it is we need to check it agaisnt our stack for the 
 // correct closing backet. using stack.pop() we can easily grab and remove the last element and check it against our current char.
