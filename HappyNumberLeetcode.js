@@ -55,7 +55,5 @@ var isHappy = function(n) {
 };
 
 
-
-
 // for this we run a while loop and keep using our answer until we run across one we've already used or it is 1. 
 // if our m is one after our while loop, the number is happy, if not the number is not happy.
