@@ -60,5 +60,6 @@ var isIsomorphic = function(s, t) {
     return true
 };
 
+
 // for this we need just
 
