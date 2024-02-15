@@ -61,5 +61,7 @@ var isIsomorphic = function(s, t) {
 };
 
 
-// for this we need just
+// for this we need to use a hashmap and a set. we use a set because its more efficient than using an array because we can use .has()
+// on our set. we check our letters agaisnt the hashmap for the same position or if a character has been been used before and return 
+// the correct result
 
