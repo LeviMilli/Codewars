@@ -46,6 +46,7 @@ var containsNearbyDuplicate = function(nums, k) {
 };
 
 
+
 // we create a new and use a for loop to itterate through the use of our indicies. if our current num[i] is present in the map, 
 // and our distance from the last it was entered is less than k, we can return true, otherwise we need to update our map 
 // and set the the current number with its indices. 
