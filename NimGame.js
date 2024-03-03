@@ -47,5 +47,6 @@ var canWinNim = function(n) {
 };
 
 
+
 // playing optimally in this case, any number that is divisable by 4 will cause us to lose. Otherwise we can return true
 // if the number is not divisable by 4.
