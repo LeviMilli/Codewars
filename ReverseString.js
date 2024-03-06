@@ -44,7 +44,6 @@ var reverseString = function(s) {
 };
 
 
-
 // of course for javascript we could use a .reverse() in this situation and achieve our O(n) but for the sake of challenge 
 // we'll do something a little different.
 
