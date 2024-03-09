@@ -77,7 +77,6 @@ var countKeyChanges = function(s) {
 };
 
 
-
 // for this one we just itterate through the our string or array if we split. if if current is differnt than the next or our current
 // tracker then we count answer up 1. return answer depending on how you did it.
 
