@@ -48,6 +48,7 @@ var moveZeroes = function(nums) {
 };
 
 
+
 // for this one we need to have pointers and itterate through our array until we find 0s to swap with. we start with both our 
 // right and left at 0 and move through. if right is not 0 we know that we are switching and need to itterate left again. 
 // no return we are only manipulating the array that we are given.
