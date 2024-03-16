@@ -48,6 +48,5 @@ var fizzBuzz = function(n) {
     } return answer
 };
 
-
 // typical fizzbuzz. only difference is we instead of returning the variation of fizzbuzz, we push it all to an array
 // and return the array instead
