@@ -28,10 +28,9 @@ function toCamelCase(str){
   }
 
 
-
   /*
   first we need to check to see if the string is empty, if it is then we just return the string back
-  I did a for loop here but it can be done with regex and map as well. 
+  I did a for loop here but it can be done with regex and map too.
   first we split the str so we can iterate over each word and grab the first letter with charAt and uppercase it.
   we then combine it with the rest of the string and replae that verison of split[i] with it then return the joined string.
   */
