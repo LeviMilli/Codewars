@@ -29,7 +29,6 @@ function toCamelCase(str){
 
 
   
-
   /*
   first we need to check to see if the string is empty, if it is then we just return the string back
   I did a for loop here but it can be done with regex and map too.
