@@ -18,7 +18,6 @@ function spinWords(string){
 
   }
 
-
   // to manipulate the stings, first we need to turn them into an array. split(" ") does this and split them at each space into an array the length of the amount of words in the string
   // next we need to iterate over the array using a for loop, or a .map() would have worked in this case as well. next is the if statement to only reverse words with 5 or more characters
   // then with our if statement we can use split again .split(""). <== this time no space to split the letters individually. then we can use reverse() and join("") joining back the reversed 
